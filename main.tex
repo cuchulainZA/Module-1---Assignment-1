@@ -1,5 +1,4 @@
-%% LyX 2.1.3 created this file.  For more info, see http://www.lyx.org/.
-%% Do not edit unless you really know what you are doing.
+
 \documentclass[british]{article}
 \usepackage[T1]{fontenc}
 \usepackage[latin9]{inputenc}
@@ -14,6 +13,8 @@
 \usepackage{graphicx}                                           % Graphics library
 \usepackage{tikz}                                               % Latex drawing package
 \usetikzlibrary{calc,positioning,shapes,decorations.pathreplacing}  % tikz libraries
+\usepackage{pgfplots}
+\pgfplotsset{width=10cm,compat=1.9}
 \usepackage{authordate1-4}                                      % for authordate ref style only
 \usepackage{natbib}
 
@@ -60,8 +61,7 @@ YOUR Student Number}
 \include{Questions/Section_C}
 \include{Questions/Section_D}
 
-%\bibliographystyle{acm}  
-% \bibliographystyle{rucsacm}   
+
 \bibliographystyle{ruauthordate}   % also uncomment the usepackage{authordate1-4} above
   
 \bibliography{ref} 

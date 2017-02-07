@@ -61,3 +61,16 @@ long/.style={short,text width=1.5cm}
 \draw[dotted] (f.south east) -- (h.south west);
 
 \end{tikzpicture}
+
+
+
+\hskip 5pt
+%Here begins the 3d plot
+\begin{tikzpicture}
+\begin{axis}
+\addplot3[
+    surf,
+]
+{exp(-x^2-y^2)*x};
+\end{axis}
+\end{tikzpicture}
